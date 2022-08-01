@@ -1,0 +1,17 @@
+.chart {
+  padding: 1rem ;
+  border-radius: 12px;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  height: 10rem;
+}
+
+.chart:hover {
+  transform: scale(1.1);
+  background-color: rgb(255, 255, 255);
+  transition: 0.3s;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
